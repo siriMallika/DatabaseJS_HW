@@ -21,7 +21,7 @@ app.get('/students', async (req,res) => {
     // const connection = await dbConn
     // const rows = await connection.query('SELECT * from students')
     // res.send(rows)
-    res.sendFile(__dirname+"/index.html");
+    res.sendFile(__dirname+"/student.html");
 })
 
 // GET students/:id 
